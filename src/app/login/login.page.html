@@ -5,24 +5,32 @@
 </ion-header>
 
 <ion-content>
-  <div id="Titulos">
-    <h1>¡Bienvenido de vuelta!</h1>
-    <br>
-    <h3>Ingresa con tu usuario y contraseña:</h3>
-  </div>
-  <br> 
-  <div id="inputs"> 
-    <ion-input placeholder="Usuario" type="email"></ion-input>
-    <ion-input placeholder="Contraseña" type="password"></ion-input>
-  </div>
-  <br>
-  <ion-button>
-    <ion-icon slot="start" name="help-circle-outline"></ion-icon>
-    <p>Olvidé mi contraseña</p>
-  </ion-button>
-  <br>
-  <ion-checkbox></ion-checkbox>
-  <ion-label>Recuérdame</ion-label>
-  <br>
-  <ion-button id="btn-entrar">Ingresar</ion-button>
+  <ion-card>
+    <ion-card-content>
+     <div id="Titulos">
+       <h1>¡Bienvenido de vuelta!</h1>
+       <br>
+        <h3>Ingresa con tu usuario y contraseña:</h3>
+     </div>
+     <br> 
+     <div id="inputs"> 
+       <ion-input placeholder="Usuario" type="email"></ion-input>
+       <ion-input placeholder="Contraseña" type="password"></ion-input>
+     </div>
+     <br>
+      <ion-button style="margin-bottom: 10px;">
+        <ion-icon slot="start" name="help-circle-outline" ></ion-icon>
+        <p style="font-size: smaller;">Olvidé mi contraseña</p>
+      </ion-button>
+      <br>
+      <ion-checkbox></ion-checkbox>
+      <ion-label>Recuérdame</ion-label>
+      <br>
+      <ion-button id="btn-entrar">Ingresar</ion-button>
+      <br>
+      <br>
+      <br>
+      <p>¿No tienes una cuenta? <a style="text-decoration: underline;">crea una</a>.</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
