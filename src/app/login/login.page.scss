@@ -1,3 +1,9 @@
+
+html{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 #Titulos{
     margin-left: auto;
     margin-right: auto;
@@ -6,9 +12,10 @@
 }
 
 #inputs{
-   
+   float: left;
 }
 
 #btn-entrar{
     float: right;
+    margin-right: 30px;
 }
