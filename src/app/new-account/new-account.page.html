@@ -1,72 +1,103 @@
-
 <ion-content>
   <ion-card>
-    
+
     <ion-card-content>
-      
-      
+
+
 
     </ion-card-content>
 
     <ion-card-content>
 
-  
-        </div>
-
-          <div>
-            <ion-grid class="formulario">
-
-              <ion-row>
-                      <ion-col>
-                        <ion-card-title>Porfavor Rellene el formulario</ion-card-title>
-                        <br>
-                        <div id="recorte">
-                            <ion-select  ok-text="Aceptar" placeholder="Elija su tipo de usuario" cancel-text="Cancelar" value="Persona Natural" >
-                            <ion-select-option >Persona Natural</ion-select-option>
-                            <ion-select-option>Domiciliario</ion-select-option>
-                            <ion-select-option>Empresa</ion-select-option>
-                        </ion-select>
-                      </ion-col>
-              </ion-row>
+      <ion-card-title>Por favor complete el formulario</ion-card-title>
+      <br>
 
 
+      <div>
+        <ion-grid class="formulario">
+          <ion-row>
 
-              <ion-row >
-                <ion-col><ion-input>Nombres</ion-input></ion-col>
-                <ion-col><ion-input>Apellidos</ion-input></ion-col>
-              </ion-row>
-              
-          
-              <ion-row><ion-col><ion-input>Correo electronico</ion-input></ion-col></ion-row>
-              
-              <ion-row><ion-col><ion-input>Contraseña</ion-input></ion-col></ion-row>
-          
-              <ion-row>
-                <ion-col><ion-input>Ciudad</ion-input></ion-col>
-                <ion-col><ion-input>Telefono</ion-input></ion-col>
-              </ion-row>
-          
-              <ion-row><ion-col><ion-input>Nombre de la empresa</ion-input></ion-col></ion-row>
-              <ion-row><ion-col><ion-input>Correo empresarial</ion-input></ion-col></ion-row>
+            <ion-col>
+              <div>
+                <ion-select ok-text="Aceptar" placeholder="Elija su tipo de usuario" cancel-text="Cancelar">
+                  <ion-select-option>Persona Natural</ion-select-option>
+                  <ion-select-option>Domiciliario</ion-select-option>
+                  <ion-select-option>Empresa</ion-select-option>
+                </ion-select>
+              </div>
 
-              <ion-button>Registrarse</ion-button>
-              <br>
-              <br>
-              <ion-button id="btnhelp" href="https://www.w3schools.com/html/html_basic.asp" >¿Como saber qué tipo de usuario soy?</ion-button>
-          
-            </ion-grid>
-          
-            
-          
-          </div>
-      
-      
+            </ion-col>
+
+          </ion-row>
+
+
+          <ion-row>
+            <ion-col>
+              <ion-input placeholder="Nombres" type="name" name="name"></ion-input>
+            </ion-col>
+            <ion-col>
+              <ion-input placeholder="Apellidos" type="name" name="surnames"></ion-input>
+            </ion-col>
+          </ion-row>
+
+
+          <ion-row>
+            <ion-col>
+              <ion-input placeholder="Correo electronico" type="email" name="email"></ion-input>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <ion-input placeholder="Contraseña" type="new-password" name="new-password"></ion-input>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <ion-select placeholder="Ciudad" name="country">
+                <ion-select-option value="Bogotá D.C">Bogotá D.C</ion-select-option>
+                <ion-select-option value="Medellin">Medellin</ion-select-option>
+                <ion-select-option value="Cartagena">Cartagena</ion-select-option>
+                <ion-select-option value="Cali">Cali</ion-select-option>
+                <ion-select-option value="Barranquilla">Barranquilla</ion-select-option>
+              </ion-select>
+            </ion-col>
+            <ion-col>
+              <ion-input placeholder="Telefono" name="phone-number"></ion-input>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <ion-input placeholder="Nombre de la empresa" name="company-name"></ion-input>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-input placeholder="Correo empresarial" name="business-mail"></ion-input>
+            </ion-col>
+          </ion-row>
+
+          <ion-button>Registrarse</ion-button>
+          <br>
+          <br>
+          <ion-button id="btnhelp" href="https://www.w3schools.com/html/html_basic.asp">¿Como saber qué tipo de usuario
+            soy?</ion-button>
+
+        </ion-grid>
+
+
+
+      </div>
+
+
 
     </ion-card-content>
 
 
 
-</ion-card>
+  </ion-card>
 
 
 
